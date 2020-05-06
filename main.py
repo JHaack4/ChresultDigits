@@ -97,7 +97,7 @@ if (cap.isOpened() == False):
     print("Failure - error opening video stream or file")
     sys.exit(0)
     
-skip = 6000
+skip = 0
 count = 0
 while(cap.isOpened()):
     count += 1
